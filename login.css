@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+.container{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(Images/login-mainbg.png);
+    background-position: center;
+    background-size: cover;
+}
+.login-area{
+    box-shadow: 2px 2px 12px 1px #5a2265,
+    -2px -2px 12px 1px;
+}
+#or{
+    font-size: 33px;
+    font-weight: 700;
+}
+
+#pass, #usermail{
+    width: 80%;
+    border-bottom:2px solid gray;
+    outline: none;
+}
+label{
+    position: relative;
+}
+label h3, #pass{
+    opacity: 0.5;
+}
+input[type=submit]{
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 700;
+    color:#efe;
+    background: linear-gradient(to right,#1b035f,#5a2265);
+}
+.sign-in a{
+    cursor: pointer;
+    padding: 0.5rem 1.5rem;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: 700;
+    color:#efe;
+    background: linear-gradient(to right,#5e0303,#5a8f04);
+}
+.right-area{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(Images/login-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+.sign-up a{
+    background-color: #efe;
+    color:#1b035f;
+    font-size: 31px;
+    font-weight: 800;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}

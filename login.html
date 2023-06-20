@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+<body>
+<div class="container w-full h-screen flex flex-col justify-center items-center">
+    <div class="login-area w-11/12 md:w-9/12 h-5/6 flex justify-center ">
+        <div class="left-area flex-1 flex flex-col items-center relative bg-white">
+            <div class="introduce flex flex-col w-full gap-4 p-7 md:px-14 md:py-10">
+                <div class="login-logo flex items-center">
+                  <a href="index.html">  <img src="Images/logo.png" alt="" width="100px"></a>
+                    <h3 class="text-3xl font-bold text-yellow-300">TailGaming</h3>
+                </div>
+                <p class="text-xl w-11/12 md:w-1/2">Welcome! Please Login To Your Account</p>
+                <div class="login-social flex gap-3">
+                    <a href="" class="text-sm p-2 rounded-sm bg-blue-700 text-yellow-50"><i class="pr-2 fa-brands fa-facebook-f"></i> Login With Facebook</a>
+                    <a href="" class="text-sm p-2 rounded-sm bg-red-600 text-yellow-50"><i class="pr-2 fa-brands fa-google"></i> Login With Google</a>
+                </div>
+            </div>
+            <p id="or" class="relative">
+                Or
+            </p>
+            <form action="" class="w-full p-7 md:px-14 md:py-10 flex flex-col gap-5">
+                <label for="usermail">
+                    <h3>Enter Your Email</h3>
+                    <input type="email" name="" id="usermail" required>
+                </label>
+                <label for="pass">
+                    <h3>Password</h3>
+                    <input type="password" name="" id="pass" required>
+
+                    <i class="fa-regular fa-eye-slash cursor-pointer" id="showPass"></i>
+                </label>
+                <div class="remember flex justify-between">
+                    <label for="check-user" class="flex gap-2">
+                        <input type="checkbox" name="" id="check-user">
+                        <h4>Remember Me</h4>
+                    </label>
+                    <a href="javascript:0;" class="text-cyan-500">Forgot Password</a>
+                </div>
+                <div class="sign-in w-full flex flex-col md:flex-row gap-10 justify-center">
+                    <input type="submit" value="Sign In">
+                    <a href="" class=" md:hidden">Sign Up Here!</a>
+                </div>
+            </form>
+        </div>
+        <div class="right-area hidden flex-1 md:flex ">
+            <div class="text-area flex flex-col p-14 w-full h-full text-cyan-50 justify-evenly">
+                <h1 class="font-extrabold text-3xl">Welcome To TailGaming!</h1>
+            <p class="text-lg">TailGaming is a platform that provides information about current and popular games. This allows you to have knowledge about the game before starting to play or purchasing it.</p>
+            <div class="sign-up flex flex-col gap-6 text-center items-center">
+                <h3><i>You Don't Have Any Account?</i></h3>
+                <a href="">Sign Up Here!</a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<script src="index.js" type="text/javascript"></script>
+<script src="login.js" type="text/javascript"></script>
+</body>
+</html>
